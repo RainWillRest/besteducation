@@ -1,0 +1,10 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.2:3306/education
+    driver-class-name: com.mysql.jdbc.Driver
+    data-username: root
+    data-password: root
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.education.pojo
