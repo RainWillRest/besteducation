@@ -50,6 +50,7 @@ public class ShiroConfig {
         return  securityManager;
     }
 
+
     @Bean
     public MyShiroRealm myShiroRealm(){
 
